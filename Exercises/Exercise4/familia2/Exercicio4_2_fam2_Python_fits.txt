@@ -1,0 +1,7 @@
+Python FITs parameters:
+
+                aic            bic  kl_div  sumsquare_error
+beta     623.566527 -103004.146757     inf         0.028234
+gamma    615.267298 -102910.711843     inf         0.028589
+lognorm  615.290765 -102901.960117     inf         0.028620
+norm     613.122807 -102656.105522     inf         0.029524

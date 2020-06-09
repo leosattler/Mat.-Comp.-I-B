@@ -1,0 +1,11 @@
+Fitting of the distribution ' beta ' by maximum likelihood 
+Parameters : 
+       estimate Std. Error
+shape1 2.099416 0.03124127
+shape2 2.153859 0.03214414
+Loglikelihood:  1185.225   AIC:  -2366.45   BIC:  -2352.428 
+Correlation matrix:
+          shape1    shape2
+shape1 1.0000000 0.7965411
+shape2 0.7965411 1.0000000
+

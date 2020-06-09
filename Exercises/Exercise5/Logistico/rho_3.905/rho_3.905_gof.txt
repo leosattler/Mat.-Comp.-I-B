@@ -1,0 +1,17 @@
+Goodness-of-fit statistics
+                             1-mge-beta 2-mge-norm 3-mge-weibull 4-mge-pareto
+Kolmogorov-Smirnov statistic 0.09948877  0.1455343     0.1688932    0.2449035
+Cramer-von Mises statistic   0.37601000  0.7652984     0.7944664    2.0930332
+Anderson-Darling statistic   2.75682532  6.5497489     6.5151418   14.1365135
+                             5-mge-burr
+Kolmogorov-Smirnov statistic  0.1711920
+Cramer-von Mises statistic    0.8143838
+Anderson-Darling statistic    6.7060292
+
+Goodness-of-fit criteria
+                               1-mge-beta 2-mge-norm 3-mge-weibull 4-mge-pareto
+Akaike's Information Criterion  -77.16854   172.7997      158.4907     245.7444
+Bayesian Information Criterion  -70.07819   179.8900      165.5811     252.8348
+                               5-mge-burr
+Akaike's Information Criterion   165.0268
+Bayesian Information Criterion   175.6623

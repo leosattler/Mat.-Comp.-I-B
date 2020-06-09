@@ -1,0 +1,6 @@
+Fitting of the distribution ' weibull ' by maximum goodness-of-fit 
+Parameters : 
+       estimate
+shape 1.0883768
+scale 0.6049519
+Loglikelihood:  -83.6976   AIC:  171.3952   BIC:  178.4855 

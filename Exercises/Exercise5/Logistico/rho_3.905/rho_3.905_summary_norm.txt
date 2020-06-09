@@ -1,0 +1,6 @@
+Fitting of the distribution ' norm ' by maximum goodness-of-fit 
+Parameters : 
+      estimate
+mean 0.5780206
+sd   0.3987157
+Loglikelihood:  -84.39984   AIC:  172.7997   BIC:  179.89 

@@ -1,0 +1,11 @@
+Fitting of the distribution ' norm ' by maximum likelihood 
+Parameters : 
+      estimate  Std. Error
+mean 0.4910857 0.001546874
+sd   0.1400071 0.001093554
+Loglikelihood:  4482.039   AIC:  -8960.078   BIC:  -8946.057 
+Correlation matrix:
+     mean sd
+mean    1  0
+sd      0  1
+

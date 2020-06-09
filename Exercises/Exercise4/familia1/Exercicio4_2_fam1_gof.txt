@@ -1,0 +1,10 @@
+Goodness-of-fit statistics
+                              1-mle-beta 2-mle-unif  3-mle-norm 4-mle-weibull
+Kolmogorov-Smirnov statistic  0.04525981  0.1319781  0.03509282    0.03280428
+Cramer-von Mises statistic    4.25141022 60.3735727  2.12682178    1.71030999
+Anderson-Darling statistic   25.85788281        Inf 16.62825642   18.58527484
+
+Goodness-of-fit criteria
+                               1-mle-beta 2-mle-unif 3-mle-norm 4-mle-weibull
+Akaike's Information Criterion  -2366.450         NA  -2100.816     -2110.875
+Bayesian Information Criterion  -2352.428         NA  -2086.794     -2096.853

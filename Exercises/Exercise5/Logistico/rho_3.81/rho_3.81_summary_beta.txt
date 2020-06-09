@@ -1,0 +1,6 @@
+Fitting of the distribution ' beta ' by maximum goodness-of-fit 
+Parameters : 
+        estimate
+shape1 1.1331971
+shape2 0.6130586
+Loglikelihood:  48.3983   AIC:  -92.79659   BIC:  -85.70624 

@@ -1,0 +1,9 @@
+Fitting of the distribution ' unif ' by maximum likelihood 
+Parameters : 
+       estimate Std. Error
+min 0.000998004         NA
+max 0.999001996         NA
+Loglikelihood:  NA   AIC:  NA   BIC:  NA 
+Correlation matrix:
+[1] NA
+

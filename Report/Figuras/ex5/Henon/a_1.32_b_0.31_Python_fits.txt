@@ -1,0 +1,10 @@
+Python FITs parameters:
+
+                    aic         bic  kl_div  sumsquare_error
+beta         220.628587 -708.130851     inf        14.989294
+weibull_max  240.785844 -689.835893     inf        16.446530
+genextreme   240.782424 -689.835360     inf        16.446564
+weibull_min  246.146689 -681.695092     inf        16.975834
+uniform      187.690059 -677.673554     inf        17.619928
+burr         245.196775 -631.880639     inf        20.166637
+pareto       251.063461 -564.684343     inf        26.764745

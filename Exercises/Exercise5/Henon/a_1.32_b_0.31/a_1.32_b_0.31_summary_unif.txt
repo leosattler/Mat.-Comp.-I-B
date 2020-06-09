@@ -1,0 +1,6 @@
+Fitting of the distribution ' unif ' by maximum goodness-of-fit 
+Parameters : 
+     estimate
+min 0.2103346
+max 1.0540305
+Loglikelihood:  -Inf   AIC:  Inf   BIC:  Inf 

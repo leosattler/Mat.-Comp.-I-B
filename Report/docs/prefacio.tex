@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{\large PREFÁCIO}
+
+Os códigos desta lista estão organizados da seguinte maneira:
+
+\begin{itemize}
+
+\item pasta \textbf{signal\_generator\_codes}: contém os scripts geradores dos sinais para cada série da tabela \textit{Dataset\_signal}. São eles:
+
+\begin{itemize}
+\item[$-$] noise.py: gerador randômico não-gaussiano. Inputs são: $n$ (tamanho da série) e $res$ (resolução).
+
+\item[$-$] colornoise.py: gerador de ruídos coloridos. Inputs são: $exponent$ (expoente do espectro de potência) e $size$ (tamanho da série).
+
+\item[$-$] pmnoise.py: gerador de série temporal via p-model. Inputs são: $noValues$ (tamanho da série) e $p$ (parâmetro do p-model).
+
+\item[$-$] chaosnoise.py: gerador de duas séries caóticas, que são o mapa Logístico e o mapa de Henon. Para o Logístico, inputs são: $N$ (tamanho da série), $\rho$ e $\tau$ (parâmetros da equação logística). Para o mapeamento de Henon, os inputs são: $N$ (tamanho da série), $a$ e $b$ (parâmetros da série). 
+\end{itemize}
+
+\item pasta \textbf{statistical\_analysis\_codes}: contém todos os scripts para as análises estatísticas desta lista. São eles:
+
+\begin{itemize}
+\item[$-$] stats\_tools.py: script com diversas funções relevantes para a lista. Contém função para normalização, determinação de variância, skewness e kurtosis além dos quatro momentos estatísticos.
+
+\item[$-$] CullenFrey\_R\_Python.py: script que classifica a série no espaço de Cullen-Frey. Ele foi implementado a partir de um ambiente R dentro do Python com o módulo rpy2 (do Python) e o pacote fitdistrplus (do R). Inputs são: $input\_data$ (dados de input), $boot$ (booleano representando opção de bootstrap) e $name$ (prefixo dos arquivos salvos).
+
+\item[$-$] Distribution\_Fitter\_R.py: script de ajuste de distribuições que inclui benchmark das PDF's ajustadas (salvo em formato .txt). Implementado a partir de um ambiente R dentro do Python via módulo rpy2 (do Python) e dos pacotes fitdistrplus, ismev e actuar (do R). É possível também ajustar uma GEV aos dados. Inputs são: $input\_data$ (série temporal), $fit\_dist$ (lista com nomes das distribuições a serem ajustadas à série), $fit\_GEV$ (booleano que representa se GEV será ajustada ou não), $method$ (método de ajuste) e $name$ (prefixo dos arquivos salvos).
+
+\item[$-$] Distribution\_Fitter\_Python.py: script para ajuste de distribuições com benchmarks das PDF's ajustadas (salvo em formato .txt). Implementado com o pacote fitter do Python. É possível também ajustar uma GEV aos dados. Inputs são: $input\_data$ (série temporal), $fit\_dist$ (lista com nomes das distribuições a serem ajustadas à série), $fit\_GEV$ (booleano que representa se GEV será ajustada ou não) e $name$ (prefixo dos arquivos salvos).
+
+\item[$-$] kmeans\_2D.py: script para análise k-means num espaço de parâmetros bidimensional. Ele gera plots dos dados no espaço sendo analisado e detemina o melhor número de clusters pelo método do cotovelo. Gera um arquivo kmeans.csv contendo informação das coordenadas x e y do centróide e da inércia para cada número de clusters testado. Inputs são: $df$ (dataframe bidimensional), $n\_c$ (número de clusters a serem testados), $axis\_labels$ (lista com strings para label dos eixos) e $name$ (prefixo dos arquivos salvos).
+
+\item[$-$] kmeans\_2D\_group\_flags.py: o mesmo que o kmeans\_2D.py, porém com a separação dos inputs por agrupamento em arquivos .csv separados pela label de cada cluster identificado. Input extra: $flags$ (lista de strings com identificadores dos pontos dentro do dataframe de input $df$).
+
+\item[$-$] kmeans\_3D.py: o mesmo que o kmeans\_2D.py, porém para um espaço de parâmetros tridimensional.
+
+\item[$-$] kmeans\_3D\_plus\_data.py: o mesmo que o kmeans\_3D.py, porém com plot de dados extras no espaço de parâmetros sendo considerado. Os inputs extras são: $plus\_data$ (lista de coordenadas tridimensionais dos dados a serem plotados) e $data\_labels$ (lista de strings para cada ponto extra a ser plotado).
+
+\item[$-$] Specplus.py: script para gerar o PSD (Power Spectral Density) e o DFA (Detrended Fluctuation Analysis) de uma série temporal. Inputs são: $data$ (dados da série) e $fig\_name$ (prefixo dos arquivos salvos). 
+
+\item[$-$] mfdfa\_ss\_m1.py, mfdfa\_ss\_m2.py, mfdfa\_ss\_m3.py e mfdfa\_ss\_m4.py: quatro módulos que executam a MFDFA (Multifractal Detrended Fluctuation Analysis). O script que implementa a análise é o mfdfa\_ss\_m4.py, com os seguintes inputs: $dx$ (série temporal), $plot\_bool$ (booleano para permitir ou não plot dos resultados) e $name$ (prefixo dos arquivos salvos). 
+
+\item[$-$] soc.py: script para cálculo de Self Organized Criticality. O inputs é $data$, os dados da série a ser analisada.
+\end{itemize}
+
+\end{itemize}
+
+%\newpage
+
+Além destes, os scripts para solução dos exercícios estão em diretórios separados (por questão, da primeira à nona) dentro da pasta \textbf{Exercises}. Eles importam os códigos acima apresentados, de forma que as pastas (em negrito) devem existir e estar referenciadas corretamente na importação. 
+
+Por último, as séries temporais \textit{ST-Sol3GHz} e \textit{ST-surftemp504} se encontram na pasta \textbf{time\_series\_data}. As séries relativas ao número de casos da Covid-19, \textit{ST-OWS\_NDC\_Covid19}, são baixadas automaticamente nas questões em que sua análise é requisitada, de forma a obter os valores mais atualizados.
+
+

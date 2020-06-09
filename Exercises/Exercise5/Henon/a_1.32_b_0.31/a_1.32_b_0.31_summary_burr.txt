@@ -1,0 +1,7 @@
+Fitting of the distribution ' burr ' by maximum goodness-of-fit 
+Parameters : 
+         estimate
+shape1 40.0612365
+shape2  2.6252863
+rate    0.3358161
+Loglikelihood:  -93.21505   AIC:  192.4301   BIC:  203.0773 

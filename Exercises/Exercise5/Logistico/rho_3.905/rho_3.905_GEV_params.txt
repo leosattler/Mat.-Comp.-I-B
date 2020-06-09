@@ -1,0 +1,14 @@
+GEV parameters:
+
+Convergence code. Zero indicates successful convergence:
+ 0
+
+Negative log-likelihood value:
+ 27.29324
+
+MLE’s for the location, scale and shape parameters:
+  0.5983300  0.4397549 -1.0976126
+
+Standard errors for the MLE’s for the location, scaleand shape parameters:
+ 2.000021e-06 2.000021e-06 9.005502e-04
+

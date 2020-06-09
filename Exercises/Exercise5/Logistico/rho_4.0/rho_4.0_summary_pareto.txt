@@ -1,0 +1,6 @@
+Fitting of the distribution ' pareto ' by maximum goodness-of-fit 
+Parameters : 
+      estimate
+shape 328037.3
+scale 197807.8
+Loglikelihood:  -84.1281   AIC:  172.2562   BIC:  179.3466 
