@@ -68,33 +68,45 @@ Os códigos desta questão se encontram separados pelos grupos da tabela \textit
 %\clearpage
 \subsubsection*{Monofractalidade vs Multifractalidade}
 
-Uma análise interessante é a comparação do espectro de singularidade entre dois grupos particulares da tabela \textit{Dataset\_signal}: chaosnoise e pmnoise. O espectro de singularidade para o mapeamento Logístico (Figura 7.2.5) e para uma série exógena (Figura 7.2.6) são apresentados a seguir.
+Uma análise interessante é a comparação do espectro de singularidade entre dois grupos particulares da tabela \textit{Dataset\_signal}: chaosnoise e pmnoise. O espectro de singularidade para o mapeamento Logístico e para uma série exógena (Figura 7.2.5) são apresentados a seguir.
 
-O valor de $\Delta \alpha$ = $\alpha_{max} - \alpha_{min}$ reflete a multifractalidade das séries. Quanto maior $\Delta \alpha$, maior a característica multifractal e complexidade da série, e a distribuição apresenta flutuações mais severas. Mapas caóticos como o mapeamento Logístico possuem uma faixa dinâmica estreita e apresentam monofractalidade, de modo que seu espectro de singularidade indica um valor de $\Delta \alpha$ relativamente pequeno: a curva da Figura 7.2.5 não se extende nas duas extremidades (ela é monofractal-like). Por outro lado, a série exógena do pmodel apresenta multifractalidade, de forma que seu $\Delta \alpha$ é maior conforme evidenciado pelo espectro de singularidade da Figura 7.2.6.
+O valor de $\Delta \alpha$ = $\alpha_{max} - \alpha_{min}$ reflete a multifractalidade da série. Quanto maior $\Delta \alpha$, maior a característica multifractal e complexidade da série, e a distribuição apresenta flutuações mais severas. Mapas caóticos como o mapeamento Logístico possuem uma faixa dinâmica estreita e apresentam monofractalidade, de modo que seu espectro de singularidade indica um valor de $\Delta \alpha$ relativamente pequeno: a curva em vermelho da Figura 7.2.5 não se extende nas duas extremidades (ela é monofractal-like). Por outro lado, a série exógena do pmodel apresenta multifractalidade, de forma que seu $\Delta \alpha$ é maior conforme evidenciado pelo espectro de singularidade.
 
 \begin{figure}[ht!]
 	%\caption{Série e histogramas.}
-	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre o título e a borda superior da figura
+	\vspace{0mm}	% acrescentar o espaçamento vertical apropriado entre o título e a borda superior da figura
 	\begin{center}
-		\resizebox{12cm}{!}{\includegraphics{Figuras/ex7/7_2/Exercicio7_2_Logistico_rho_3.81_mfdfa_4.jpg}}		
+		\resizebox{16cm}{!}{\includegraphics{Figuras/ex7/7_2/comp_mfdfa_4.jpg}}		
 	\end{center}
-	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre a borda inferior da figura e a legenda ou a fonte quando não há legenda (o valor pode ser negativo para subir)
-	\legenda{Figura 7.2.5: Espectro de singularidade $f(\alpha)$ vs $\alpha$ do grupo chaosnoise: mapeamento Logístico com $\rho$ = 3.81.}	% legenda - para deixar sem legenda usar comando \legenda{} (nunca deve-se comentar o comando \legenda)
+	\vspace{-2mm}	% acrescentar o espaçamento vertical apropriado entre a borda inferior da figura e a legenda ou a fonte quando não há legenda (o valor pode ser negativo para subir)
+	\legenda{Figura 7.2.5: Comparação entre o espectro de singularidade $f(\alpha)$ vs $\alpha$ do grupo pmnoise e do grupo chaosnoise. Série exógena do pmodel com $p$ = 0.18 e $\beta$ = 0.7 vs mapeamento Logístico com $\rho$ = 3.81.}	% legenda - para deixar sem legenda usar comando \legenda{} (nunca deve-se comentar o comando \legenda)
 	\label{ex6_fig1}
 	%\FONTE{}	% fonte consultada (elemento obrigatório, mesmo que seja produção do próprio autor)
 \end{figure}
 
-\begin{figure}[ht!]
+%\begin{figure}[ht!]
 	%\caption{Série e histogramas.}
-	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre o título e a borda superior da figura
-	\begin{center}
-		\resizebox{12cm}{!}{\includegraphics{Figuras/ex7/7_2/Exercicio7_2_grupo_pmnoise_p_0.18_mfdfa_4.jpg}}		
-	\end{center}
-	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre a borda inferior da figura e a legenda ou a fonte quando não há legenda (o valor pode ser negativo para subir)
-	\legenda{Figura 7.2.6: Espectro de singularidade $f(\alpha)$ vs $\alpha$ do grupo pmnoise: série exógena com $p$ = 0.18 e $\beta$ = 0.7.}	% legenda - para deixar sem legenda usar comando \legenda{} (nunca deve-se comentar o comando \legenda)
-	\label{ex6_fig1}
+%	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre o título e a borda superior da figura
+%	\begin{center}
+%		\resizebox{12cm}{!}{\includegraphics{Figuras/ex7/7_2/Exercicio7_2_Logistico_rho_3.81_mfdfa_4.jpg}}		
+%	\end{center}
+%	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre a borda inferior da figura e a legenda ou a fonte quando não há legenda (o valor pode ser negativo para subir)
+%	\legenda{Figura 7.2.5: Espectro de singularidade $f(\alpha)$ vs $\alpha$ do grupo chaosnoise: mapeamento Logístico com $\rho$ = 3.81.}	% legenda - para deixar sem legenda usar comando \legenda{} (nunca deve-se comentar o comando \legenda)
+%	\label{ex6_fig1}
 	%\FONTE{}	% fonte consultada (elemento obrigatório, mesmo que seja produção do próprio autor)
-\end{figure}
+%\end{figure}
+
+%\begin{figure}[ht!]
+	%\caption{Série e histogramas.}
+%	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre o título e a borda superior da figura
+%	\begin{center}
+%		\resizebox{12cm}{!}{\includegraphics{Figuras/ex7/7_2/Exercicio7_2_grupo_pmnoise_p_0.18_mfdfa_4.jpg}}		
+%	\end{center}
+%	\vspace{-3mm}	% acrescentar o espaçamento vertical apropriado entre a borda inferior da figura e a legenda ou a fonte quando não há legenda (o valor pode ser negativo para subir)
+%	\legenda{Figura 7.2.6: Espectro de singularidade $f(\alpha)$ vs $\alpha$ do grupo pmnoise: série exógena com $p$ = 0.18 e $\beta$ = 0.7.}	% legenda - para deixar sem legenda usar comando \legenda{} (nunca deve-se comentar o comando \legenda)
+%	\label{ex6_fig1}
+	%\FONTE{}	% fonte consultada (elemento obrigatório, mesmo que seja produção do próprio autor)
+%\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  7.3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
