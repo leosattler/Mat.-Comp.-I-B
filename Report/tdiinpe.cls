@@ -1102,7 +1102,7 @@ top=3cm,bottom=3cm]{geometry}	% acrescentado por gjfb em 2011-12-06
 %%% codigo para possiveis problemas de caption e float
 %%% testar melhor
 
-\pagenumbering{roman}% para usar estilo romano desde a capa porque MakeIndex supõe que a numeração romana precede arábica (não deve começar com arábica se continuar com romana; neste caso o MakeIndex se perde nas referências à páginas arábicas de valores inferiores ao número máximo de páginas romanas) - acrescentado por gjfb em 2011-10-09
+\pagenumbering{gobble}%roman}% para usar estilo romano desde a capa porque MakeIndex supõe que a numeração romana precede arábica (não deve começar com arábica se continuar com romana; neste caso o MakeIndex se perde nas referências à páginas arábicas de valores inferiores ao número máximo de páginas romanas) - acrescentado por gjfb em 2011-10-09
 
 \makeatletter
 \newcommand{\@ldtable}{}

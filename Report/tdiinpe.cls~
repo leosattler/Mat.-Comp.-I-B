@@ -1157,7 +1157,7 @@ pdfauthor = {\@author},
  
  % {\vspace*{\stretch{5}}{\centering\normalfont\scriptsize\avisoDeOriginal \\ <\href{http://urlib.net/\@repositorio}{http://urlib.net/\@repositorio}>\par}}	% comentado por gjfb em 2010-05-01
  % LINK GITHUB: https://github.com/leosattler/Mat.-Comp.-I-B
- {\vspace*{\stretch{5}}{\centering\normalfont\small\avisoDeOriginal \\ <\href{https://github.com/leosattler/Mat.-Comp.-I-B\@IBI}{github/Lista-CAP239B\@IBI}>\par}}	% acrescentado por gjfb em 2010-05-01
+ {\vspace*{\stretch{5}}{\centering\normalfont\small\avisoDeOriginal \\ <\href{https://github.com/leosattler/Mat.-Comp.-I-B\@IBI}{github/Lista-CAP-239B\@IBI}>\par}}	% acrescentado por gjfb em 2010-05-01
  {\vspace*{\stretch{5}}{\centering\normalfont\normalsize\@instituicaosigla \\ 
      \@instituicaocidade  \\ \@date\par}}
 %
